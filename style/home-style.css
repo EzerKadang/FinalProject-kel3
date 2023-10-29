@@ -1,0 +1,245 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.container {
+  width: 88%;
+  margin: 0 auto;
+}
+
+.col-2 {
+  width: 648px;
+  float: left;
+  margin: 0 10px;
+}
+
+.col-3 {
+  width: 425px;
+  float: left;
+  margin: 0 10px;
+}
+
+.col-4 {
+  width: 310px;
+  float: left;
+  margin: 0 10px;
+}
+
+.clear {
+  clear: both;
+}
+
+/*---------------*/
+
+#main {
+  position: relative;
+}
+
+#main img {
+  width: 100%;
+  height: 400px;
+}
+
+#main-detail {
+  position: absolute;
+  top: 0;
+  height: 400px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav {
+  border-bottom: 2px solid black;
+  padding: 7px 0;
+}
+
+.nav-link a {
+  color: white;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+#search-bar {
+  padding-top: 50px;
+  color: white;
+}
+
+.search {
+  width: 1130px;
+  height: 35px;
+  border-radius: 10px;
+}
+
+.search-input {
+  width: 200px;
+  height: 35px;
+  border-radius: 10px;
+  background-color: green;
+  color: white;
+  font-weight: bolder;
+}
+
+.simple-box-1 {
+  height: 180px;
+  width: 100%;
+  background-color: bisque;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
+  padding-bottom: 50px;
+  gap: 20px;
+}
+
+.simple-box-1 h1 {
+  font-weight: bold;
+}
+
+.simple-box-2 {
+  height: 180px;
+  width: 100%;
+  background-color: bisque;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
+  padding-bottom: 50px;
+  gap: 20px;
+}
+
+.simple-box-2 h1 {
+  font-weight: bold;
+}
+
+.simple-box-3 {
+  height: 180px;
+  width: 100%;
+  background-color: bisque;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
+  padding-bottom: 50px;
+  gap: 20px;
+}
+
+.simple-box-3 h1 {
+  font-weight: bold;
+}
+
+.aneka-kuliner-box {
+  height: 250px;
+  width: 100%;
+  border-radius: 20px;
+  position: relative;
+}
+
+.aneka-kuliner-box img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.aneka-kuliner-detail {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.6;
+  border-radius: 20px;
+}
+
+.aneka-kuliner-detail h1 {
+  text-align: center;
+  color: aliceblue;
+  padding-top: 100px;
+}
+
+.product-list {
+  height: 550px;
+  width: 100%;
+  margin-bottom: 15px;
+  background-color: #d9d8d7;
+  border-radius: 20px;
+}
+
+.product-list img {
+  width: 100%;
+  height: 60%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.product-list details {
+  text-align: center;
+}
+
+.details span {
+  margin-top: 10px;
+  padding: 5px 10px;
+}
+
+.button-link {
+  background-color: green;
+  color: white;
+  margin-top: 30px;
+  padding: 14px 135px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 15px;
+}
+
+#footer {
+  width: 100%;
+  height: 325px;
+  background-color: black;
+  margin-top: 90px;
+  padding-top: 40px;
+  color: white;
+}
+
+#footer-detail h1 {
+  color: green;
+  padding-top: 18px;
+}
+
+#footer-detail svg {
+  width: 20px;
+  margin-right: 15spx;
+}
+
+.button-link-newsletter {
+  background-color: green;
+  color: white;
+  padding: 14px 200px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 15px;
+}
